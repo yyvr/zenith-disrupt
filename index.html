@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的股票投资组合</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f7fb; color: #333; margin: 40px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: #1a365d; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        .portfolio-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .portfolio-table th, .portfolio-table td { padding: 12px; text-align: left; border-bottom: 1px solid #edf2f7; }
+        .portfolio-table th { background-color: #f7fafc; color: #4a5568; }
+        .up { color: #e53e3e; font-weight: bold; } /* 红涨绿跌可根据习惯调整 */
+        .down { color: #38a169; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 我的股票投资组合 (Portfolio)</h1>
+        <p>这是一个通过 GitHub Pages 托管的个性化资产看板。</p>
+        
+        <table class="portfolio-table">
+            <thead>
+                <tr>
+                    <th>股票代码</th>
+                    <th>公司名称</th>
+                    <th>持仓权重</th>
+                    <th>今日表现 (示例)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>AAPL</strong></td>
+                    <td>Apple Inc.</td>
+                    <td>35%</td>
+                    <td class="up">+1.45%</td>
+                </tr>
+                <tr>
+                    <td><strong>MSFT</strong></td>
+                    <td>Microsoft Corp.</td>
+                    <td>40%</td>
+                    <td class="down">-0.82%</td>
+                </tr>
+                <tr>
+                    <td><strong>GOOGL</strong></td>
+                    <td>Alphabet Inc.</td>
+                    <td>25%</td>
+                    <td class="up">+2.10%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
